@@ -51,9 +51,9 @@ def leer_linea_especifica(nombre_archivo, numero_linea):
 
 if __name__ == '__main__':
     load_locations()
-    print('Welcome to Fixer\'s RDR2 mod manager\n Press 1 to make a list of al the vanilla files in the game directory\n Press 2 to load all the mods\n Press 3 to unload the mods\n Press 4 to exit')
+    print('\033[91mWelcome to Fixer\'s RDR2 mod manager\n Press 1 to make a list of al the vanilla files in the game directory\n Press 2 to load all the mods\n Press 3 to unload the mods\n Press 4 to exit\033[0m')
     while True:
-        opcion = input('Enter an option: ')
+        opcion = input('\033[93mEnter an option: \033[0m')
         if opcion == '1':
             escribir_lista()
         elif opcion == '2':
